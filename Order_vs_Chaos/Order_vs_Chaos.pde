@@ -43,11 +43,11 @@ void draw() {
   //}
   //println(data); 
   t += dt;
-  if (dt<5) {
-    dt*=1.01;
-  } else {
-    dt=.01;;
-  }
+  //if (dt<5) {
+  //  dt*=1.01;
+  //} else {
+  //  dt=.01;;
+  //}
 }
 void mousePressed() {
   dt+=.001;
